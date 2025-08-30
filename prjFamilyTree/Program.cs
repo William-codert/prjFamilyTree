@@ -78,10 +78,6 @@
             Console.WriteLine(string.Join(" -> ", dfsResult));
             Console.WriteLine();
 
-            // Example: highlight search
-            var node = royalTree.FindNode(royalTree.Root, "Prince George of Wales");
-            Console.WriteLine("------ Highlighted Search ---------");
-            royalTree.PrintTree(royalTree.Root, node);
         }
     }
 }
